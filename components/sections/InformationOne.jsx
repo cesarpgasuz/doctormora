@@ -1,4 +1,4 @@
-import InformationOneItem from './InformationOneItem'
+import InformationOneItem from '../ui/InformationOneItem'
 import ImageCultura from '@/public/images/cultura.jpg'
 import ImageHotel from '@/public/images/hotel.svg'
 import ImageRestaurante from '@/public/images/restaurante.svg'
@@ -15,22 +15,18 @@ const InformationOne = () => {
                     <InformationOneItem
                         imagenSrc={ImageCultura}
                         title='Lugares Turisticos'
-                        
                     />
                     <InformationOneItem
                         imagenSrc={ImageHotel}
                         title='Hoteles, Posadas'
-                        clases='#23AAE6'
                     />
                     <InformationOneItem
                         imagenSrc={ImageRestaurante}
                         title='Restaurantes, Fondas'
-                        clases='#FF3D7D'
                     />
                     <InformationOneItem
                         imagenSrc={ImageServicios}
                         title='Servicios'
-                        clases='#23D1D0'
                     />
                 </div>
             </div>
