@@ -1,0 +1,15 @@
+.informationOne {
+    background-color: #F1FAFF;
+}
+.cards article:nth-child(1){
+    border-left: 6px solid #94D688;
+}
+.cards article:nth-child(2){
+    border-left: 6px solid #23AAE6;
+}
+.cards article:nth-child(3){
+    border-left: 6px solid #FF3D7D;
+}
+.cards article:nth-child(4){
+    border-left: 6px solid #23D1D0;
+}   

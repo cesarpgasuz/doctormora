@@ -9,7 +9,7 @@ import ImagePulque from '@/public/images/pulque_1.webp'
 const Header = () => {
   return (
 
-    <>
+  
     <header className='bg-gradient-to-br from-d-azul to-d-verde pt-12 pb-12 h-auto'>
       <div className="contenedor">
         <div className="text-center m:w-1/2">
@@ -26,11 +26,6 @@ const Header = () => {
       </div>
       
     </header>
-    <section className='contenedor py-10'>
-        <p className='text-center'>Proyecto en construcción...</p>
-    </section>
-    </>
-    
 
 
   )

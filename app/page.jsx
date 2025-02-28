@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <Header />
-      {/* <InformationOne />
+      <InformationOne />
       <InformationTwo />
       <InformationThree />
-      <InformationFour /> */}
+      <InformationFour />
     </>
   );
 }
