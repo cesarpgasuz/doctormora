@@ -15,7 +15,7 @@ const Header = () => {
         <div className="text-center m:w-1/2">
           <span>Bienvenidos a</span>
           <h1 className='flex flex-col'><span className='text-4xl font-bold'>Doctor Mora</span> <span>Guanajuato</span></h1>
-          <p className='mt-6 mb-6 leading-7'>Descubre la esencia de Doctor Mora en Guanajuato, donde historia y modernidad se entrelazan. Explora su legado desde la Gran Chichimeca hasta la vibrante villa de 1865. ¡Bienvenido a un viaje único en nuestra guía turística!</p>
+          <p className='mt-6 mb-6 leading-7'>Adéntrate en el corazón de Guanajuato y descubre un lugar donde la historia y las tradiciones se mantienen vivas. Explora sus calles, conoce su patrimonio cultural y déjate envolver por la calidez de su gente.</p>
       </div>
       <div className='flex py-6 justify-center m:w-1/2'>
           <Image src={ImageIglesia} width='72' height='72' alt='imagen de una iglesia' className='rotate-6 bg-white rounded-md p-2 size-[72px] border-2 border-emerald-400' />
