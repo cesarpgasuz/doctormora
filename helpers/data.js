@@ -13,7 +13,7 @@ export const PRINCIPALLINKS = [
     },
     {
         id: 3,
-        title: 'Restaurantes, Fondas',
+        title: 'Restaurantes',
         link: '/restaurantes',  
         icon: 'fork'
     },
@@ -22,6 +22,12 @@ export const PRINCIPALLINKS = [
         title: 'Servicios',
         link: '/servicios',
         icon: 'doctor'
+    },
+    {
+        id: 5,
+        title: 'Estacionamientos',
+        link: '/estacionamientos',
+        icon: 'car'
     }
 ]
 

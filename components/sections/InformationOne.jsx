@@ -12,7 +12,7 @@ const InformationOne = () => {
         <section className={`${styles.informationOne} py-20`}>
             <div className="contenedor">
                 <p className='text-lg mb-10 font-medium'>En Doctor Mora encuentra todo lo que buscas.</p>
-                <div className={`${styles.cards} grid gap-4 sm:grid-cols-2 lg:grid-cols-4`}>
+                <div className={`${styles.cards} grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5`}>
 
                     {PRINCIPALLINKS.map(principal => (
                         <InformationOneItem 

@@ -11,7 +11,7 @@ const InformationOneItem = ({principal}) => {
   const Icono = getIcon(icon)
 
   return (
-    <Link href={link} className="bg-white flex items-center p-5 gap-3 rounded shadow-2xl shadow-sky-300/10 relative hover:bg-cyan-200">
+    <Link href={link} className="bg-white flex flex-col p-5 gap-3 rounded shadow-2xl shadow-sky-300/10 relative hover:bg-cyan-200">
         <Icono stroke='#0183c9' className='size-8 flex-shrink-0' />
         <h3 className="text-base">{title}</h3>
         <IconArrowTopRight className='absolute top-2 right-2 size-5' stroke='#444444' />
