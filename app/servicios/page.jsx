@@ -1,12 +1,22 @@
 import Link from "next/link"
+import TitlesPages from "@/components/ui/TitlesPages"
+import useTitle from "../utilities/useTitle"
+
+export const metadata = {
+  title: "Servicios | Doctor Mora, Guanajuato",
+  description: "Descubre los mejores servicios de Doctor Mora, Guanajuato. Encuentra opciones para disfrutar de la gastronomía local y nacional.",
+  keywords: "servicios, doctor mora, guanajuato, turismo, servicios turísticos",
+}
+
 
 const ServiciosPage = () => {
+  const info = useTitle(11)
   return (
-    <>
-    <div>Servicios</div>
-    <Link href="/">Inicio</Link>
-
-    </>
+    <section className="w-full h-auto py-6">
+      <div className="contenedor">
+        <TitlesPages {...info} />
+      </div>
+    </section>
   )
 }
 
