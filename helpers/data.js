@@ -94,7 +94,7 @@ export const TITLESPAGE = [
     {
         id:9,
         title: 'Estacionamientos',
-        parrafo: 'Aquí encontrarás información sobre estacionamientos en Doctor Mora, Guanajuato.',
+        parrafo: 'Facilitamos tu visita. Encuentra información sobre las opciones de estacionamiento disponibles para que tu llegada y estancia sean más cómodas.',
     },
     {
         id: 10,
@@ -111,62 +111,116 @@ export const TITLESPAGE = [
 
 
 export const ESTACIONAMIENTOS = [
+
     {
         id: 1,
-        direccion: 'Calle Hidalgo #67'
+        direccion: 'Calle Hidalgo #48',
+        url: 'https://maps.app.goo.gl/WA65YJUonc8Tx4v46',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '6 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '9 min a pie'
+        }]
     },
     {
         id: 2,
-        direccion: 'Calle Hidalgo #48'
+        direccion: 'Calle Hidalgo #21',
+        url: 'https://maps.app.goo.gl/rZxjB2WFzvGEm3eAA',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '3 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '6 min a pie'
+        }]
     },
     {
         id: 3,
-        direccion: 'Calle Hidalgo #21'
+        direccion: 'Calle Irapuato #30',
+        url: 'https://maps.app.goo.gl/PHZPnNLGBdd8ysUc9',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '1 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '5 min a pie'
+        }]
     },
     {
         id: 4,
-        direccion: 'Calle Irapuato #30'
+        nombre: 'Estacionamiento Valtierra',
+        direccion: 'Calle San Luis #19',
+        url: 'https://maps.app.goo.gl/62feUaTfS9BmunCN8',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '3 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '6 min a pie'
+        }]
     },
     {
         id: 5,
-        direccion: 'Calle Irapuato #40'
+        direccion: 'Calle San Luis s/n',
+        url: 'https://www.google.com.mx/maps/place/21.1414026,-100.3200155',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '2 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '5 min a pie'
+        }]
     },
     {
         id: 6,
-        direccion: 'Calle San Luis s/n'
+        direccion: 'Calle Guanajuato #10',
+        url: 'https://www.google.com.mx/maps/place/21.1418278,-100.3178095',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '5 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '1 min a pie'
+        }]
     },
     {
         id: 7,
-        direccion: 'Calle Guanajuato #10'
+        direccion: 'Calle Jerécuaro #10',
+        url: 'https://www.google.com.mx/maps/place/21.1411777,-100.3183011',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '5 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '3 min a pie'
+        }]
     },
     {
         id: 8,
-        direccion: 'Calle Jerécuaro #10'
+        nombre: 'Estacionamiento La Huerta',
+        direccion: 'Calle San Luis s/n',
+        url: 'https://maps.app.goo.gl/tQFbBieqXfd95nTM9',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '3 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '6 min a pie'
+        }]
     },
     {
         id: 9,
-        nombre: 'Estacionamiento Valtierra',
-        direccion: 'Calle San Luis #26',
-        url:'https://maps.app.goo.gl/ZN9r3Qgqrp6VnF1i9'
+        nombre: 'Estacionamiento y baños los Abuelos',
+        direccion: 'Calle Jaral #9',
+        url: 'https://maps.app.goo.gl/ogMLdMYLce9zhyDw8',
+        distancia: [{
+            nombre: 'Plazuela Principal',
+            distancia: '6 min a pie',
+        },{
+            nombre: 'Jardin Principal',
+            distancia: '2 min a pie'
+        }]
     },
-    {
-        id: 10,
-        direccion: 'Calle Jaral #9'
-    },
-    {
-        id: 11,
-        direccion: 'Calle Abasolo #22',
-        url: 'https://www.google.com.mx/maps/place/21.1438056,-100.3179722'
-    },
-    {
-        id: 12,
-        direccion: 'Calle Jerécuaro #42',
-        url: 'https://maps.app.goo.gl/P2XHA9QNhZ8BaKSm9'
-    },
-    {
-        id: 13,
-        nombre: 'Estacionamiento La Huerta',
-        direccion: 'Calle Jerécuaro #52',
-        url: 'https://maps.app.goo.gl/MH75EZUv8miv2Gda8'
-    }
 ]
