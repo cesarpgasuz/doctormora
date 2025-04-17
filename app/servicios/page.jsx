@@ -5,7 +5,7 @@ import useTitle from "../utilities/useTitle"
 export const metadata = {
   title: "Servicios | Doctor Mora, Guanajuato",
   description: "Descubre los mejores servicios de Doctor Mora, Guanajuato. Encuentra opciones para disfrutar de la gastronomía local y nacional.",
-  keywords: "servicios, doctor mora, guanajuato, turismo, servicios turísticos",
+  keywords: ["servicios doctor mora", "servicios doctor mora guanajuato"],
 }
 
 

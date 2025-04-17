@@ -5,7 +5,7 @@ import useTitle from '../utilities/useTitle'
 export const metadata = {
   title: 'Turismo | Doctor Mora, Guanajuato',
   description: 'Descubre los mejores lugares turísticos de Doctor Mora, Guanajuato. Encuentra opciones para disfrutar de la gastronomía local y nacional.',
-  keywords: 'turismo, doctor mora, guanajuato, turismo, lugares turísticos',
+  keywords: ['turismo doctor mora', 'doctor mora guanajuato', 'turismo doctor mora guanajuato', 'lugares turísticos doctor mora', 'lugares turísticos doctor mora guanajuato',]
 }
 
 

@@ -5,7 +5,7 @@ import useTitle from "../utilities/useTitle"
 export const metadata = {
   title: "Hoteles | Doctor Mora, Guanajuato",
   description: "Descubre los mejores hoteles de Doctor Mora, Guanajuato. Encuentra opciones para disfrutar de la gastronomía local y nacional.",
-  keywords: "hoteles, doctor mora, guanajuato, turismo, hospedaje",
+  keywords: ["hoteles", "doctor mora", "doctor mora guanajuato", "hoteles doctor mora", "hospedaje doctor mora", "posadas doctor mora", "hoteles doctor mora guanajuato"],
 }
 
 

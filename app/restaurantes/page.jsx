@@ -4,7 +4,7 @@ import useTitle from "../utilities/useTitle"
 export const metadata = {
   title: "Restaurantes | Doctor Mora, Guanajuato",
   description: "Descubre los mejores restaurantes de Doctor Mora, Guanajuato. Encuentra opciones para disfrutar de la gastronomía local y nacional.",
-  keywords: "restaurantes, doctor mora, guanajuato, gastronomía, turismo",
+  keywords: ["restaurantes", "doctor mora", "guanajuato", "restaurantes doctor mora", "comida doctor mora", "gastronomía doctor mora", "comida típica doctor mora", "comida típica guanajuato", "restaurantes guanajuato"],
 }
 
 
