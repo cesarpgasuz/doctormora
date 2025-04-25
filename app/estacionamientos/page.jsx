@@ -2,7 +2,7 @@ import TitlesPages from "@/components/ui/TitlesPages"
 import useTitle from "../utilities/useTitle"
 import { ESTACIONAMIENTOS } from "@/helpers/data"
 import EstacionamientoItem from "@/components/ui/EstacionamientoItem"
-import { IconArrowTopRight } from "@/helpers/icons"
+import FuenteInfo from "@/components/ui/FuenteInfo"
 
 export const metadata = {
   title: 'Estacionamientos | Doctor Mora, Guanajuato',
@@ -37,11 +37,8 @@ function EstacionamientosPage() {
             
         </div>
     </section>
-    <section className="w-full h-auto py-14">
-            <div className="contenedor">
-              <a href="https://doctormora.gob.mx/2022/wp-content/uploads/2020/07/ESTACIONAMIENTOS-DOCTOR-MORA-22.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center">Fuente <IconArrowTopRight className='top-2 right-2 size-[18px]' stroke='#444444' /></a>
-            </div>
-    </section>
+    <FuenteInfo url='https://doctormora.gob.mx/2022/wp-content/uploads/2020/07/ESTACIONAMIENTOS-DOCTOR-MORA-22.pdf' />
+              
   </>
     
   )
