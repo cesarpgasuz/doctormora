@@ -1,14 +1,21 @@
-import Image from "next/image"
+// import Image from "next/image"
+import Link from "next/link"
+import { getIcon } from "@/helpers/icons"
+import { IconArrowTopRight } from "@/helpers/icons"
 
-const InformationOneItem = ({imagenSrc, title}) => {
 
-  
+const InformationOneItem = ({principal}) => {
+
+  const {title, link, icon} = principal
+
+  const Icono = getIcon(icon)
 
   return (
-    <article className='bg-white flex items-center p-5 gap-4 rounded'>
-        <Image src={imagenSrc} width={64} height={64} className="size-14" alt='Imagen Cultura' />
+    <Link href={link} className="bg-white flex flex-col p-5 gap-3 rounded shadow-2xl shadow-sky-300/10 relative hover:bg-cyan-200">
+        <Icono stroke='#0183c9' className='size-8 flex-shrink-0' />
         <h3 className="text-base">{title}</h3>
-    </article>
+        <IconArrowTopRight className='absolute top-2 right-2 size-5' stroke='#444444' />
+    </Link>
   )
 }
 export default InformationOneItem

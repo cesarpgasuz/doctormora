@@ -1,17 +1,8 @@
+import { ENLACES } from '@/helpers/data'
 import Image from 'next/image'
 import ImageGirl from '@/public/images/girl.png'
 
 const InformationFour = () => {
-
-  const ENLACES = [
-    { id: 1, title: 'Registro Civil', url: '/registro-civil' },
-    { id: 2, title: 'INE', url: '/ine' },
-    { id: 3, title: 'Proteccion Civil', url: '/proteccion-civil' },
-    { id: 4, title: 'Seguridad Publica', url: '/seguridad-publica' },
-    { id: 5, title: 'CFE', url: '/cfe' },
-    { id: 6, title: 'Politica', url: '/politica' },
-  ]
-
 
   return (
     <section className='py-14 w-full h-auto'>

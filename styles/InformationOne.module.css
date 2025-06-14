@@ -1,7 +1,10 @@
 .informationOne {
     background-color: #F1FAFF;
 }
-.cards article:nth-child(1){
+.cards a{
+    border: 1px solid #afe3ff;
+}
+/* .cards article:nth-child(1){
     border-left: 6px solid #94D688;
 }
 .cards article:nth-child(2){
@@ -12,4 +15,4 @@
 }
 .cards article:nth-child(4){
     border-left: 6px solid #23D1D0;
-}   
+}    */
