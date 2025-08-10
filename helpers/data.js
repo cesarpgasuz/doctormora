@@ -106,6 +106,12 @@ export const TITLESPAGE = [
         title: 'Servicios',
         parrafo: 'Aquí encontrarás información sobre servicios en Doctor Mora, Guanajuato.',
 
+    },
+    {
+        id: 12,
+        title: 'Fiestas y Tradiciones',
+        parrafo: 'Aquí encontrarás información sobre fiestas y tradiciones en Doctor Mora, Guanajuato.',
+        url: '/fiestas-tradiciones'
     }
 ]
 
@@ -287,3 +293,177 @@ export const LUGARESTURISTICOS = [
         texto: 'Otra hacienda en la que se puede apreciar la arquitectura del siglo pasado, es la Hacienda de la Purísima, construida en el siglo XX en la Comunidad de la Purísima, y cuyo último dueño conocido fue Don José Orduña. Esta hacienda también se encuentra prácticamente en ruinas, por lo que es igualmente un atractivo turístico para los amantes de la historia.'
     }
 ]
+
+export const fiestasPatronales = [
+  {
+    mes: "Enero",
+    celebraciones: [
+      {
+        comunidad: "Morisquillas",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en enero"
+      },
+      {
+        comunidad: "Palmitas",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en enero"
+      }
+    ]
+  },
+  {
+    mes: "Marzo",
+    celebraciones: [
+      {
+        comunidad: "Cerrito de la Estancia",
+        santo: "Señor de San José",
+        fecha: "19 de marzo"
+      }
+    ]
+  },
+  {
+    mes: "Mayo",
+    celebraciones: [
+      {
+        comunidad: "El Baño",
+        santo: "San Isidro",
+        fecha: "15 de mayo"
+      },
+      {
+        comunidad: "La Noria",
+        santo: "Señor de Charcas",
+        notas: "Fecha variable en mayo"
+      },
+      {
+        comunidad: "Puerto del Obispo de Arriba",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en mayo"
+      }
+    ]
+  },
+  {
+    mes: "Junio",
+    celebraciones: [
+      {
+        comunidad: "Cabecera Municipal",
+        santo: "Sagrado Corazón de Jesús",
+        notas: "Fecha variable en junio"
+      },
+      {
+        comunidad: "Cerro Chato",
+        santo: "Sagrado Corazón de Jesús",
+        notas: "Fecha variable en junio"
+      }
+    ]
+  },
+  {
+    mes: "Julio",
+    celebraciones: [
+      {
+        comunidad: "Los Duraznos",
+        santo: "Virgen del Carmen",
+        fecha: "16 de julio"
+      },
+      {
+        comunidad: "Tierra Prieta",
+        santo: "Virgen del Carmen",
+        notas: "Fecha variable en julio"
+      }
+    ]
+  },
+  {
+    mes: "Agosto",
+    celebraciones: [
+      {
+        comunidad: "Ejido Vagui",
+        santo: "Virgen de las Ilusiones",
+        fecha: "15 de agosto"
+      }
+    ]
+  },
+  {
+    mes: "Septiembre",
+    celebraciones: [
+      {
+        comunidad: "Arroyo de la Plata",
+        santo: "San Miguel Arcángel",
+        fecha: "29 de septiembre"
+      },
+      {
+        comunidad: "El Lindero",
+        santo: "Virgen de los Remedios",
+        notas: "Fecha variable en septiembre"
+      }
+    ]
+  },
+  {
+    mes: "Octubre",
+    celebraciones: [
+      {
+        comunidad: "Derramadero del Sauz",
+        santo: "San Francisco de Asís",
+        fecha: "4 de octubre"
+      },
+      {
+        comunidad: "Vagui",
+        santo: "San Francisco de Asís",
+        notas: "4 de octubre o el domingo más cercano"
+      },
+      {
+        comunidad: "Loma de Buenavista",
+        santo: "San Francisco de Asís",
+        notas: "4 de octubre o el domingo más cercano"
+      },
+      {
+        comunidad: "San Rafael",
+        santo: "San Rafael",
+        fecha: "24 de octubre"
+      },
+      {
+        comunidad: "Presa del Gato",
+        santo: "San Judas Tadeo",
+        fecha: "28 de octubre"
+      }
+    ]
+  },
+  {
+    mes: "Noviembre",
+    celebraciones: [
+      {
+        comunidad: "Puerto de Trojes",
+        santo: "Cristo Rey",
+        notas: "Fecha variable en noviembre"
+      }
+    ]
+  },
+  {
+    mes: "Diciembre",
+    celebraciones: [
+      {
+        comunidad: "Cabecera Municipal",
+        santo: "Novenario de la Virgen de Guadalupe",
+        fecha: "3 al 12 de diciembre",
+        notas: "El 12 es el día principal"
+      },
+      {
+        comunidad: "La Purísima",
+        santo: "Virgen Inmaculada",
+        fecha: "8 de diciembre"
+      },
+      {
+        comunidad: "Begoña",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en diciembre"
+      },
+      {
+        comunidad: "Rancho Nuevo de Guadalupe",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en diciembre"
+      },
+      {
+        comunidad: "Obrajitos",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en diciembre"
+      }
+    ]
+  }
+];

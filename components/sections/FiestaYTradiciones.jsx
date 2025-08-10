@@ -24,7 +24,7 @@ const FiestaYTradiciones = () => {
           <h2 className="text-center mt-7 text-lg font-medium">Fiestas y Tradiciones</h2>
           <p className="mt-6 leading-8">{parrafo}</p>
 
-          <Link href='/fiestas-y-tradiciones' className="mt-12 block w-full text-center font-medium bg-teal-500 text-teal-900 py-4 rounded">Más Información </Link>
+          <Link href='/fiestas-tradiciones' className="mt-12 block w-full text-center font-medium bg-teal-500 text-teal-900 py-4 rounded">Más Información </Link>
         </div>
       </div>
 
