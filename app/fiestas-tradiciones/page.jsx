@@ -28,16 +28,16 @@ const FiestasyTradicionesPage = () => {
 
               
             <div key={index} className="bg-slate-400/20"> 
-                <h3>{fiesta.mes}</h3>
+                <h3 className="text-3xl">{fiesta.mes}</h3>
 
-                <div className="grid grid-cols-3 gap-6">
+                <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                   {fiesta.celebraciones.map((celebracion, idx) => (
                   <div key={idx} className="bg-red-200">
                     <h4>{celebracion.comunidad}</h4>
                     <ul>
                       <li>Celebracion a: {celebracion.santo}</li>
-                      <li>Fecha: {celebracion.fecha}</li>
+                      <li>Fecha: {celebracion.fecha ? celebracion.fecha : `Celebración en ${fiesta.mes}`}</li>
                     </ul>
                   </div>
                 ))}
