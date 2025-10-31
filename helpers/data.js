@@ -106,124 +106,112 @@ export const TITLESPAGE = [
         title: 'Servicios',
         parrafo: 'Aquí encontrarás información sobre servicios en Doctor Mora, Guanajuato.',
 
+    },
+    {
+        id: 12,
+        title: 'Fiestas y Tradiciones',
+        parrafo: 'Aquí encontrarás información sobre fiestas y tradiciones en Doctor Mora, Guanajuato.',
+        url: '/fiestas-tradiciones'
     }
 ]
 
 
 export const ESTACIONAMIENTOS = [
-
-    {
-        id: 1,
-        direccion: 'Calle Hidalgo #48',
-        url: 'https://maps.app.goo.gl/WA65YJUonc8Tx4v46',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '6 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '9 min a pie'
-        }]
-    },
-    {
-        id: 2,
-        direccion: 'Calle Hidalgo #21',
-        url: 'https://maps.app.goo.gl/rZxjB2WFzvGEm3eAA',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '3 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '6 min a pie'
-        }]
-    },
-    {
-        id: 3,
-        direccion: 'Calle Irapuato #30',
-        url: 'https://maps.app.goo.gl/PHZPnNLGBdd8ysUc9',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '1 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '5 min a pie'
-        }]
-    },
-    {
-        id: 4,
-        nombre: 'Estacionamiento Valtierra',
-        direccion: 'Calle San Luis #19',
-        url: 'https://maps.app.goo.gl/62feUaTfS9BmunCN8',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '3 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '6 min a pie'
-        }]
-    },
-    {
-        id: 5,
-        direccion: 'Calle San Luis s/n',
-        url: 'https://www.google.com.mx/maps/place/21.1414026,-100.3200155',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '2 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '5 min a pie'
-        }]
-    },
-    {
-        id: 6,
-        direccion: 'Calle Guanajuato #10',
-        url: 'https://www.google.com.mx/maps/place/21.1418278,-100.3178095',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '5 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '1 min a pie'
-        }]
-    },
-    {
-        id: 7,
-        direccion: 'Calle Jerécuaro #10',
-        url: 'https://www.google.com.mx/maps/place/21.1411777,-100.3183011',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '5 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '3 min a pie'
-        }]
-    },
-    {
-        id: 8,
-        nombre: 'Estacionamiento La Huerta',
-        direccion: 'Calle San Luis s/n',
-        url: 'https://maps.app.goo.gl/tQFbBieqXfd95nTM9',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '3 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '6 min a pie'
-        }]
-    },
-    {
-        id: 9,
-        nombre: 'Estacionamiento y baños los Abuelos',
-        direccion: 'Calle Jaral #9',
-        url: 'https://maps.app.goo.gl/ogMLdMYLce9zhyDw8',
-        distancia: [{
-            nombre: 'Plazuela Principal',
-            distancia: '6 min a pie',
-        }, {
-            nombre: 'Jardin Principal',
-            distancia: '2 min a pie'
-        }]
-    },
+  {
+    id: 1,
+    direccion: 'Calle Hidalgo #48',
+    url: 'https://www.google.com.mx/maps/place/21.141570,-100.323843',
+    coords: [21.141570, -100.323843],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '6 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '9 min a pie' }
+    ]
+  },
+  {
+    id: 2,
+    direccion: 'Calle Hidalgo #21',
+    url: 'https://www.google.com.mx/maps/place/21.141882,-100.321709',
+    coords: [21.141882, -100.321709],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '3 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '6 min a pie' }
+    ]
+  },
+  {
+    id: 3,
+    direccion: 'Calle Irapuato #30',
+    url: 'https://www.google.com.mx/maps/place/21.142826,-100.320611',
+    coords: [21.142826, -100.320611],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '1 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '5 min a pie' }
+    ]
+  },
+  {
+    id: 4,
+    nombre: 'Estacionamiento Valtierra',
+    direccion: 'Calle San Luis #19',
+    url: 'https://www.google.com.mx/maps/place/21.1405188,-100.3200253',
+    coords: [21.1405188, -100.3200253],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '3 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '6 min a pie' }
+    ]
+  },
+  {
+    id: 5,
+    direccion: 'Calle San Luis s/n',
+    url: 'https://www.google.com.mx/maps/place/21.1414026,-100.3200155',
+    coords: [21.1414026, -100.3200155],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '2 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '5 min a pie' }
+    ]
+  },
+  {
+    id: 6,
+    direccion: 'Calle Guanajuato #10',
+    url: 'https://www.google.com.mx/maps/place/21.1418278,-100.3178095',
+    coords: [21.1418278, -100.3178095],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '5 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '1 min a pie' }
+    ]
+  },
+  {
+    id: 7,
+    direccion: 'Calle Jerécuaro #10',
+    url: 'https://www.google.com.mx/maps/place/21.1411777,-100.3183011',
+    coords: [21.1411777, -100.3183011],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '5 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '3 min a pie' }
+    ]
+  },
+  {
+    id: 8,
+    nombre: 'Estacionamiento La Huerta',
+    direccion: 'Calle San Luis s/n',
+    url: 'https://www.google.com.mx/maps/place/21.1409857,-100.3199673',
+    coords: [21.1409857, -100.3199673],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '3 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '6 min a pie' }
+    ]
+  },
+  {
+    id: 9,
+    nombre: 'Estacionamiento y baños los Abuelos',
+    direccion: 'Calle Jaral #9',
+    url: 'https://www.google.com.mx/maps/place/21.1424762,-100.316636',
+    coords: [21.1424762, -100.316636],
+    distancia: [
+      { nombre: 'Plazuela Principal', distancia: '6 min a pie' },
+      { nombre: 'Jardin Principal', distancia: '2 min a pie' }
+    ]
+  }
 ]
+
 
 export const HOTELES = [
     {
@@ -287,3 +275,177 @@ export const LUGARESTURISTICOS = [
         texto: 'Otra hacienda en la que se puede apreciar la arquitectura del siglo pasado, es la Hacienda de la Purísima, construida en el siglo XX en la Comunidad de la Purísima, y cuyo último dueño conocido fue Don José Orduña. Esta hacienda también se encuentra prácticamente en ruinas, por lo que es igualmente un atractivo turístico para los amantes de la historia.'
     }
 ]
+
+export const fiestasPatronales = [
+  {
+    mes: "Enero",
+    celebraciones: [
+      {
+        comunidad: "Morisquillas",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en enero"
+      },
+      {
+        comunidad: "Palmitas",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en enero"
+      }
+    ]
+  },
+  {
+    mes: "Marzo",
+    celebraciones: [
+      {
+        comunidad: "Cerrito de la Estancia",
+        santo: "Señor de San José",
+        fecha: "19 de marzo"
+      }
+    ]
+  },
+  {
+    mes: "Mayo",
+    celebraciones: [
+      {
+        comunidad: "El Baño",
+        santo: "San Isidro",
+        fecha: "15 de mayo"
+      },
+      {
+        comunidad: "La Noria",
+        santo: "Señor de Charcas",
+        notas: "Fecha variable en mayo"
+      },
+      {
+        comunidad: "Puerto del Obispo de Arriba",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en mayo"
+      }
+    ]
+  },
+  {
+    mes: "Junio",
+    celebraciones: [
+      {
+        comunidad: "Cabecera Municipal",
+        santo: "Sagrado Corazón de Jesús",
+        notas: "Fecha variable en junio"
+      },
+      {
+        comunidad: "Cerro Chato",
+        santo: "Sagrado Corazón de Jesús",
+        notas: "Fecha variable en junio"
+      }
+    ]
+  },
+  {
+    mes: "Julio",
+    celebraciones: [
+      {
+        comunidad: "Los Duraznos",
+        santo: "Virgen del Carmen",
+        fecha: "16 de julio"
+      },
+      {
+        comunidad: "Tierra Prieta",
+        santo: "Virgen del Carmen",
+        notas: "Fecha variable en julio"
+      }
+    ]
+  },
+  {
+    mes: "Agosto",
+    celebraciones: [
+      {
+        comunidad: "Ejido Vagui",
+        santo: "Virgen de las Ilusiones",
+        fecha: "15 de agosto"
+      }
+    ]
+  },
+  {
+    mes: "Septiembre",
+    celebraciones: [
+      {
+        comunidad: "Arroyo de la Plata",
+        santo: "San Miguel Arcángel",
+        fecha: "29 de septiembre"
+      },
+      {
+        comunidad: "El Lindero",
+        santo: "Virgen de los Remedios",
+        notas: "Fecha variable en septiembre"
+      }
+    ]
+  },
+  {
+    mes: "Octubre",
+    celebraciones: [
+      {
+        comunidad: "Derramadero del Sauz",
+        santo: "San Francisco de Asís",
+        fecha: "4 de octubre"
+      },
+      {
+        comunidad: "Vagui",
+        santo: "San Francisco de Asís",
+        notas: "4 de octubre o el domingo más cercano"
+      },
+      {
+        comunidad: "Loma de Buenavista",
+        santo: "San Francisco de Asís",
+        notas: "4 de octubre o el domingo más cercano"
+      },
+      {
+        comunidad: "San Rafael",
+        santo: "San Rafael",
+        fecha: "24 de octubre"
+      },
+      {
+        comunidad: "Presa del Gato",
+        santo: "San Judas Tadeo",
+        fecha: "28 de octubre"
+      }
+    ]
+  },
+  {
+    mes: "Noviembre",
+    celebraciones: [
+      {
+        comunidad: "Puerto de Trojes",
+        santo: "Cristo Rey",
+        notas: "Fecha variable en noviembre"
+      }
+    ]
+  },
+  {
+    mes: "Diciembre",
+    celebraciones: [
+      {
+        comunidad: "Cabecera Municipal",
+        santo: "Novenario de la Virgen de Guadalupe",
+        fecha: "3 al 12 de diciembre",
+        notas: "El 12 es el día principal"
+      },
+      {
+        comunidad: "La Purísima",
+        santo: "Virgen Inmaculada",
+        fecha: "8 de diciembre"
+      },
+      {
+        comunidad: "Begoña",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en diciembre"
+      },
+      {
+        comunidad: "Rancho Nuevo de Guadalupe",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en diciembre"
+      },
+      {
+        comunidad: "Obrajitos",
+        santo: "Virgen de Guadalupe",
+        notas: "Fecha variable en diciembre"
+      }
+    ]
+  }
+];
