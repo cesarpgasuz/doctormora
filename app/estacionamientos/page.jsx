@@ -1,4 +1,3 @@
-import dynamic from 'next/dynamic'
 import TitlesPages from "@/components/ui/TitlesPages"
 import useTitle from "../utilities/useTitle"
 import { ESTACIONAMIENTOS } from "@/helpers/data"
@@ -17,31 +16,32 @@ export const metadata = {
 //   },
 }
 
-// 🔥 Import dinámico del mapa (sin SSR)
-const MapaEstacionamientos = dynamic(
-  () => import('@/components/sections/MapaEstacionamientos'),
-  { ssr: false }
-)
 
-export default function EstacionamientosPage() {
-  const info = useTitle(9)
-
+function EstacionamientosPage() {
+    const info = useTitle(9)
   return (
-    <>
-      <section className="w-full h-auto py-6">
+  <>
+  
+  <section className="w-full h-auto py-6">
         <div className="contenedor">
-          <TitlesPages {...info} />
+        <TitlesPages {...info} />
         </div>
-      </section>
-
-      <section className="w-full h-auto py-14">
-        <div className="contenedor grid lg:grid-cols-2 gap-6">
-          {/* 🔥 Pasamos el array completo al mapa */}
-          <MapaEstacionamientos estacionamientos={ESTACIONAMIENTOS} />
+    </section>
+    <section className="w-full h-auto py-14">
+        <div className="contenedor">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+               {ESTACIONAMIENTOS.map(estacionamiento => (
+                <EstacionamientoItem key={estacionamiento.id} estacionamiento={estacionamiento} />
+            ))} 
+            </div>
+            
         </div>
-      </section>
-
-      <FuenteInfo url="https://doctormora.gob.mx/2022/wp-content/uploads/2020/07/ESTACIONAMIENTOS-DOCTOR-MORA-22.pdf" />
-    </>
+    </section>
+    <FuenteInfo url='https://doctormora.gob.mx/2022/wp-content/uploads/2020/07/ESTACIONAMIENTOS-DOCTOR-MORA-22.pdf' />
+              
+  </>
+    
   )
 }
+
+export default EstacionamientosPage
