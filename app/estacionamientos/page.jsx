@@ -23,8 +23,7 @@ const MapaEstacionamientos = dynamic(
   { ssr: false }
 )
 
-
-function EstacionamientosPage() {
+export default function EstacionamientosPage() {
   const info = useTitle(9)
 
   return (
@@ -35,18 +34,10 @@ function EstacionamientosPage() {
         </div>
       </section>
 
-      {/* Grid: listado + mapa */}
       <section className="w-full h-auto py-14">
         <div className="contenedor grid lg:grid-cols-2 gap-6">
-          <div className="space-y-4 overflow-y-auto max-h-[600px] pr-2">
-            {ESTACIONAMIENTOS.map((estacionamiento) => (
-              <EstacionamientoItem key={estacionamiento.id} estacionamiento={estacionamiento} />
-            ))}
-          </div>
-
-          <div>
-            <MapaEstacionamientos estacionamientos={ESTACIONAMIENTOS} />
-          </div>
+          {/* 🔥 Pasamos el array completo al mapa */}
+          <MapaEstacionamientos estacionamientos={ESTACIONAMIENTOS} />
         </div>
       </section>
 
@@ -54,5 +45,3 @@ function EstacionamientosPage() {
     </>
   )
 }
-
-export default EstacionamientosPage
